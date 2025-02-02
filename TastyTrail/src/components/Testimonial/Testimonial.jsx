@@ -38,7 +38,7 @@ const Testimonial = () => {
     }
     return (
         <>
-            <div className='py-10'>
+            <div data-aos="fade-up" data-aos-duration="300" className='py-10'>
                 <div className='container'>
                     <div className='text-center mb-20 max-w-[400px] mx-auto'>
                         <p className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'>
@@ -50,7 +50,9 @@ const Testimonial = () => {
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam perspiciatis nam commodi. Quibusdam ratione deserunt blanditiis nostrum, nesciunt magni voluptates!
                         </p>
                     </div>
-                    <div className='grid grid-cols-1 max-w-[600px] mx-auto gap-6 '>
+                    <div 
+                        data-aos="zoom-in" data-aos-duration="300" 
+                        className='grid grid-cols-1 max-w-[600px] mx-auto gap-6 '>
                         <Slider {...settings}>
                             {
                                 testimonialData.map(({id, name, text, img}) => {

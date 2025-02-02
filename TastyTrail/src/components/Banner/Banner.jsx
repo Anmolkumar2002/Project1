@@ -9,7 +9,9 @@ const Banner = () => {
         <>
             <div className='min-h-[550px]'>
                 <div className=''>
-                    <div data-aos="slide-up" data-aos-duration="300" className='container'>
+                    <div 
+                        data-aos="slide-up" data-aos-duration="300" 
+                        className='container'>
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
                             <div>
                                 <img src={food1} alt="" className='max-w-[430px] w-full mx-auto drop-shadow-[10px_10px_12px_rgba(0, 0, 0, 0.1)]'/>
