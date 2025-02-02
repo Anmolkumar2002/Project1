@@ -24,13 +24,13 @@ const Banner = () => {
                                 </p>
                                 <div className='flex gap-6'>
                                     <div>
-                                        <GrSecure className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400'/>
+                                        <GrSecure className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 hover:bg-violet-400 dark:bg-violet-400 dark:hover:bg-violet-100 dark:hover:text-gray-700'/>
                                     </div>
                                     <div>
-                                        <IoFastFoodOutline className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 dark:bg-orange-400'/>
+                                        <IoFastFoodOutline className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-orange-100 hover:bg-orange-400 dark:bg-orange-400 dark:hover:bg-orange-100 dark:hover:text-gray-700'/>
                                     </div>
                                     <div>
-                                        <GiFoodTruck className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 dark:bg-green-400'/>
+                                        <GiFoodTruck className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-green-100 hover:bg-green-400 dark:bg-green-400 dark:hover:bg-green-100 dark:hover:text-gray-700'/>
                                     </div>
                                 </div>
                                 <div>
