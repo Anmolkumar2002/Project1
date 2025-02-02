@@ -5,6 +5,7 @@ import Service from './components/Services/Service'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
 import Testimonial from './components/Testimonial/Testimonial'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Banner />
         <AppStore />
         <Testimonial />
+        <Footer />
       </div>
     </>
   )
