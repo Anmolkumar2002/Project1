@@ -18,7 +18,7 @@ const Navbar = () => {
               <div>
                 <DarkMode />
               </div>
-              <ul className='hidden sm:flex gap-4'>
+              <ul className='hidden sm:flex items-center gap-4'>
                 <li>
                   <a href="#" className='inline-block py-4 px-4 hover:text-primary'>Home</a>
                 </li>
@@ -31,7 +31,7 @@ const Navbar = () => {
               </ul>
               <button className='bg-gradient-to-r from-primary to-secondary text-white px-4 py-1 rounded-full hover:scale-105 duration-300 flex items-center gap-3'>
                 Order
-                <FaCartShopping className='text-white drop-shadow-sm cursor-pointer'/>
+                <FaCartShopping className='text-xl text-white drop-shadow-sm cursor-pointer'/>
               </button>
             </div>
           </div>
