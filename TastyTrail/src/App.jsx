@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import Service from './components/Services/Service'
 import Banner from './components/Banner/Banner'
 import AppStore from './components/AppStore/AppStore'
+import Testimonial from './components/Testimonial/Testimonial'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Service />
         <Banner />
         <AppStore />
+        <Testimonial />
       </div>
     </>
   )
